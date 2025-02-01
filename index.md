@@ -15,7 +15,7 @@
   <!-- right col: text -->
   <div style="max-width: 500px;">
     <p><strong>Hi, I'm Ashley!</strong></p>
-    <p>I'm a first-year graduate student pursuing a Master's degree in Data Science at UC San Diego. With a background in probability and statistics, I've developed a passion for the intersection of theory and real-world data applications. In addition to my academic pursuits, I work as a Graduate Teaching Assistant, helping students navigate data science concepts, and I’m actively involved in research focused on neural networks and optimal transport mapping. My goal is to combine my technical expertise with a strong foundation in mathematics to contribute to data-driven innovations.</p>
+    <p>I'm a first-year graduate student pursuing a Master's degree in Data Science at UC San Diego. With a background in probability and statistics, I've developed a passion for the intersection of theory and real-world data applications. In addition to my academic pursuits, I work as a Graduate Teaching Assistant, helping students navigate data science concepts, and I’m actively involved in research focused on neural networks and optimal transport mapping. I am excited to combine my technical expertise with a strong foundation in mathematics to contribute to data-driven innovations.</p>
   </div>
 </div>
 
@@ -62,7 +62,7 @@
             <div class="project-description">
                 <div class="project-title">Recommender System Algorithms</div>
                 <div class="project-summary">
-                    Compared two sequential recommendation algorithms, FPMC and SASRec. FPMC is a traditional approach rooted in linear algebra, utilizing personalized Markov chains to model sequential behaviors. SASRec is a modern state-of-the-art deep learning algorithm that utilizes self-attention mechanisms to capture intricate sequential patterns.
+                    Compared two sequential recommendation algorithms, FPMC and SASRec. FPMC is a traditional approach rooted in linear algebra, utilizing personalized Markov chains to model sequential behaviors. SASRec is a modern state-of-the-art deep learning algorithm that utilizes self-attention mechanisms to capture intricate sequential patterns. (<a href=https://drive.google.com/file/d/1Wh6nUUQxKX9PvToT639vkG1v3TBEwNme/view?usp=sharing>Project Report</a>)
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
             <div class="project-description">
                 <div class="project-title">MBTI Prediction Based on Twitter Content</div>
                 <div class="project-summary">
-                    Perfroed EDA and sentiment analytisis on content of Twitter user posts. Implemented multi-class and binary classification models using SVM to predict a user’s MBTI type based on features from their Twitter content.
+                    Performed EDA and sentiment analytisis on content of Twitter user posts. Implemented multi-class and binary classification models using SVM to predict a user’s MBTI type based on features from their Twitter content.
                 </div>
             </div>
         </div>
