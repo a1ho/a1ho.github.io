@@ -62,7 +62,7 @@
             <div class="project-description">
                 <div class="project-title">Recommender System Algorithms</div>
                 <div class="project-summary">
-                    Compared two sequential recommendation algorithms, FPMC and SASRec. FPMC is a traditional approach rooted in linear algebra, utilizing personalized Markov chains to model sequential behaviors. SASRec is a modern state-of-the-art deep learning algorithm that utilizes self-attention mechanisms to capture intricate sequential patterns. (<a href="https://drive.google.com/file/d/1Wh6nUUQxKX9PvToT639vkG1v3TBEwNme/view?usp=sharing">Project Report</a>)
+                    Compared two sequential recommendation algorithms, FPMC and SASRec. FPMC is a traditional approach rooted in linear algebra, utilizing personalized Markov chains to model sequential behaviors. SASRec is a modern state-of-the-art deep learning algorithm that utilizes self-attention mechanisms to capture intricate sequential patterns.
                 </div>
             </div>
         </div>
