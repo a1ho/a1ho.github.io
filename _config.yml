@@ -6,3 +6,6 @@ titles_from_headings:
   strip_title: true
   collections: true
 title:
+
+minima:
+  skin: auto  # Keeps the Minima theme

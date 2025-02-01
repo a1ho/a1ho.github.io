@@ -1,0 +1,139 @@
+/* ABOUT */
+.about-link {
+    text-decoration: none;  /* No underline by default */
+    color: #5b9bd5 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-link:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+/* EDUCATION */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+}
+
+/* vertical line */
+.education-container::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 24px;
+    bottom: 73px;
+    width: 2px;
+    background-color: #d1d3d8;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    margin-top: 7px;
+}
+
+.education-item p {
+    margin: 0;
+}
+
+.main-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #a1a6b2;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sub-dot {
+    width: 4px;
+    height: 4px;
+    border: 2px solid #a1a6b2;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -13px;
+}
+
+.sub-item {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.sub-item-2 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Align text vertically with the dot */
+    line-height: 0.01; /* You can tweak this to control vertical space */
+}
+
+.education-year {
+    color: #888;
+    margin-left: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* PROJECTS */
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-box {
+    padding: 20px;
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    border-radius: 10px; 
+    transition: all 0.2s ease-in-out; 
+}
+
+.project-box:hover {
+    background-color: #cfe3f5; 
+    /*transform: scale(1.01);*/
+}
+
+.project-box img {
+    max-width: 150px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-title {
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    text-decoration: none !important;
+}
+
+.project-summary {
+    color: #000000;
+    font-size: 14px
+}
+
+.project-container a {
+    text-decoration: none; 
+}
+
+.project-container a:hover {
+    text-decoration: none; 
+}
+
+.project-container a .project-title:hover {
+    text-decoration: underline; 
+}
